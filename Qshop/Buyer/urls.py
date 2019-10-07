@@ -1,10 +1,9 @@
 from django.urls import path,re_path
-from Seller.views import *
-
+from Buyer.views import *
 urlpatterns = [
     path('register/',register),
     path('login/',login),
     path('index/',index),
-    path('slc/',send_login_code),
-    path('add_goods/',add_goods),
+    path('goods_list/',goods_list),
+    re_path('goods_detail/(?P<id>\d+)/',goods_detail),
 ]
