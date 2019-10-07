@@ -123,7 +123,7 @@ STATICFILES_DIRS = (
 
 # STATIC_ROOT = os.path.join(BASE_DIR,"static")
 MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR,"static"),
+MEDIA_ROOT = os.path.join(BASE_DIR,"static")
 
 alipay_public_key_string = """-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwWL7j8vs1nlbBBImiyRZM8mPJuBUvxsMclZoYkOzbpU6dis66u3i66ndAqpLFz1KnIaNZhd9kVjkW4jnQ4ViQoBKFturq8d9UdgOez+5H58xlv98A4jLG/1yqD4J4HFRCSSZvPzz4YWIhLfl/C+gSbnTQjpd3aStqVBAhSrXxvH2xlLJWvhNp/4msc4+rLfdUZatfjMrjwikpW780grbC0eKBrXtDsn3PSKgp+PR64I7AokXKvyKJ0okaghkeLn2VnPrsFY3ajb0Llt2WgSgtzbxb1ajDPX0JQQSCUzhXfA8M+oofnWQKEPcYW12d56QFu22J+9mdOV7uftSTJhq5wIDAQAB

@@ -117,28 +117,5 @@
                 )
             }
         </script>
-
-<script>
-	function adds() {
-		value = parseInt($("#number").val());
-		price = parseFloat($("#price").text());
-		value = value + 1;
-		$("#number").val(value);
-		total = value*price;
-		$("#total").text(total)
-	}
-	function downs() {
-		value = parseInt($("#number").val());
-		price = parseFloat($(#price).text());
-		if (value>1){
-			value = value - 1;
-			$("#number").val(value);
-		}else{
-			$("#number").val(1)
-		}
-		total = value*price;
-		$("#total").text(total)
-	}
-</script>
     {% endblock %}
 {% endblock %}
