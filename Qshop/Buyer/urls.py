@@ -9,5 +9,9 @@ urlpatterns = [
     path('user_info/',user_info),
     path('add_cart/',add_cart),
     path('cart/',cart),
+    path('pay_order/',pay_order),
+    path('pay_order_more/',pay_order_more),
+    path('pay_result/',pay_result),
+    path('alipay/',AliPayViews),
 
 ]
